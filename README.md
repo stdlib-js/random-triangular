@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@esm/index.mjs';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@v0.1.0-esm/index.mjs';
 ```
 
 #### triangular( shape, a, b, c\[, options] )
@@ -353,7 +353,7 @@ var sz = random.byteLength;
 
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@esm/index.mjs';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@v0.1.0-esm/index.mjs';
 
 // Create a function for generating random arrays originating from the same state:
 var random = triangular.factory({
