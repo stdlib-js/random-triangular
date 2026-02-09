@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-triangular/tags). For example,
+
+```javascript
 import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@v0.1.1-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@deno/mod.js';
 ```
 
 #### triangular( shape, a, b, c\[, options] )
@@ -348,7 +353,7 @@ var sz = random.byteLength;
 ```javascript
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@v0.1.1-deno/mod.js';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-triangular@deno/mod.js';
 
 // Create a function for generating random arrays originating from the same state:
 var random = triangular.factory({
